@@ -39,4 +39,22 @@ function osszead(int $a, int $b): int {
 
 echo osszead(5, 7);
 
+$jegy = 4;
+
+if ($jegy == 5) {
+    echo "Kiváló";
+} elseif ($jegy == 4) {
+    echo "jó";
+} elseif ($jegy == 3) {
+    echo "közepes";
+} elseif ($jegy == 2) {
+    echo "elégséges";
+} elseif ($jegy == 1) {
+    echo "elégtelen";
+} else {
+    echo "Hibás jegy!";
+}
+
+
+
 ?>
