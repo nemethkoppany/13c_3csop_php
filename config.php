@@ -2,8 +2,8 @@
 return[
     
     "db" => [ "host" => "localhost",
-        "user" => "my_databse",
-        "password"=>"my_password",
+        "user" => "root",
+        "password"=>"jelszo",
         "dbname"=>"chat"
     ];
 ]
