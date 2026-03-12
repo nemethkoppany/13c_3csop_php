@@ -90,7 +90,7 @@ function buborekRendezes($tomb) {
     return $tomb;
 }
  
-// Bináris keresés (rendezett tömb kell!)
+// Bináris keresés 
 function binarisKereses($tomb, $keresett) {
     $bal = 0;
     $jobb = count($tomb) - 1;
@@ -112,13 +112,13 @@ function binarisKereses($tomb, $keresett) {
     return -1;
 }
  
-// Logaritmikus keresés (itt gyakorlatilag bináris keresés)
+// Logaritmikus keresés 
 function logaritmikusKereses($tomb, $keresett) {
     return binarisKereses($tomb, $keresett);
 }
  
  
-// Példa használat
+
 $tomb = array(5, 3, 8, 1, 4);
  
 echo "Összeg: " . osszegzes($tomb) . "<br>";
